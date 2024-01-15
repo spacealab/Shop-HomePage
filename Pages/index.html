@@ -9,10 +9,10 @@
 
 </head>
 <body>
-  <header class="bg-white py-4" style="width: 1656px; margin: auto;">
-    <div style="width: inherit; margin: inherit;">
+  <header class="bg-white py-4">
+    <div class=" w-384 m-auto">
       <!-- Logo Section -->
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center py-8">
         <div class="flex items-center">
           <!-- Logo Image -->
           <svg xmlns="http://www.w3.org/2000/svg" width="85" height="60" viewBox="0 0 85 60" fill="none">
@@ -62,7 +62,7 @@
   
         <!-- Account and Cart -->
         <div class="flex items-center">
-          <div>
+          <div class="flex flex-row">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
               <g clip-path="url(#clip0_3374_3552)">
                 <path d="M21 24.3665H19V19.3235C18.9992 18.5395 18.6874 17.7879 18.133 17.2335C17.5787 16.6791 16.827 16.3673 16.043 16.3665H7.957C7.173 16.3673 6.42134 16.6791 5.86696 17.2335C5.31259 17.7879 5.00079 18.5395 5 19.3235V24.3665H3V19.3235C3.00159 18.0093 3.52435 16.7494 4.45363 15.8201C5.3829 14.8909 6.64281 14.3681 7.957 14.3665H16.043C17.3572 14.3681 18.6171 14.8909 19.5464 15.8201C20.4756 16.7494 20.9984 18.0093 21 19.3235V24.3665Z" fill="#253D4E"/>
@@ -76,7 +76,7 @@
             </svg>
             <a href="#account" class="text-gray-600 hover:text-gray-900 mr-6">Account</a>
           </div>
-          <div>
+          <div class="flex flex-row">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
               <g clip-path="url(#clip0_3374_3574)">
                 <path d="M24.3313 3.36652H4.5733L4.5313 3.01552C4.44535 2.28593 4.09468 1.61325 3.54579 1.12499C2.99689 0.636739 2.28793 0.366858 1.5533 0.366516L0.331299 0.366516V2.36652H1.5533C1.79823 2.36655 2.03464 2.45647 2.21767 2.61923C2.40071 2.78199 2.51764 3.00626 2.5463 3.24952L4.1313 16.7175C4.21725 17.4471 4.56791 18.1198 5.11681 18.608C5.6657 19.0963 6.37467 19.3662 7.1093 19.3665H20.3313V17.3665H7.1093C6.86421 17.3665 6.62768 17.2764 6.44462 17.1134C6.26157 16.9505 6.14473 16.7259 6.1163 16.4825L5.9853 15.3665H22.1673L24.3313 3.36652ZM20.4953 13.3665H5.7503L4.8093 5.36652H21.9383L20.4953 13.3665Z" fill="#253D4E"/>
@@ -98,10 +98,10 @@
     <div class="h-0.5 bg-gray-300 w-full"></div>
 
       <!-- Navigation Links and Support Center -->
-    <div class="flex justify-between items-center" style="width: inherit; margin: inherit;">
+    <div class="flex justify-between items-center w-384 m-auto py-3">
       <!-- Button  -->
       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
           <g clip-path="url(#clip0_3374_3515)">
             <path d="M8.02303 7.85048H0.689697V2.51715C0.689697 1.98672 0.900411 1.47801 1.27548 1.10294C1.65056 0.727865 2.15926 0.517151 2.6897 0.517151L8.02303 0.517151V7.85048ZM2.02303 6.51715H6.6897V1.85048H2.6897C2.51289 1.85048 2.34332 1.92072 2.21829 2.04575C2.09327 2.17077 2.02303 2.34034 2.02303 2.51715V6.51715Z" fill="white"/>
             <path d="M16.6897 7.85048H9.35632V0.517151H14.6897C15.2201 0.517151 15.7288 0.727865 16.1039 1.10294C16.4789 1.47801 16.6897 1.98672 16.6897 2.51715V7.85048ZM10.6897 6.51715H15.3563V2.51715C15.3563 2.34034 15.2861 2.17077 15.1611 2.04575C15.036 1.92072 14.8665 1.85048 14.6897 1.85048H10.6897V6.51715Z" fill="white"/>
@@ -114,7 +114,10 @@
             </clipPath>
           </defs>
         </svg>
-        <span>Browse All Categories</span>
+        <span class="mr-3">Browse All Categories</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none">
+          <path d="M5 5.84788C4.80423 5.84825 4.61032 5.807 4.42941 5.7265C4.24851 5.646 4.08419 5.52783 3.94588 5.3788L0 1.13381L1.05412 0L5 4.24419L8.94588 0L10 1.13381L6.05412 5.378C5.91588 5.52718 5.75158 5.64549 5.57067 5.72613C5.38977 5.80677 5.19582 5.84814 5 5.84788Z" fill="white"/>
+        </svg>
       </button>
       <!-- Navigation Links -->
       <nav class="flex space-x-4">
