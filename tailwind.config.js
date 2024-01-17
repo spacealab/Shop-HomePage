@@ -18,6 +18,7 @@ module.exports = {
       fontFamily: {
         'logo-font': ['Quicksand', 'sans-serif'],
         'Montserrat': ['Montserrat', 'sans-serif'],
+        'Lato': ['Lato', 'sans-serif'],
       },
       lineHeight: {
         '12': '3rem',
