@@ -78,22 +78,32 @@
                 </clipPath>
               </defs>
             </svg>
-            <a href="#account" class="text-gray-600 hover:text-gray-900 mr-6">Account</a>
+            <a href="#account" class="font-Lato text-[#7E7E7E] text-[16px] not-italic font-normal leading-[24px]">Account</a>
           </div>
           <div class="flex flex-row">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-              <g clip-path="url(#clip0_3374_3574)">
-                <path d="M24.3313 3.36652H4.5733L4.5313 3.01552C4.44535 2.28593 4.09468 1.61325 3.54579 1.12499C2.99689 0.636739 2.28793 0.366858 1.5533 0.366516L0.331299 0.366516V2.36652H1.5533C1.79823 2.36655 2.03464 2.45647 2.21767 2.61923C2.40071 2.78199 2.51764 3.00626 2.5463 3.24952L4.1313 16.7175C4.21725 17.4471 4.56791 18.1198 5.11681 18.608C5.6657 19.0963 6.37467 19.3662 7.1093 19.3665H20.3313V17.3665H7.1093C6.86421 17.3665 6.62768 17.2764 6.44462 17.1134C6.26157 16.9505 6.14473 16.7259 6.1163 16.4825L5.9853 15.3665H22.1673L24.3313 3.36652ZM20.4953 13.3665H5.7503L4.8093 5.36652H21.9383L20.4953 13.3665Z" fill="#253D4E"/>
-                <path d="M7.3313 24.3665C8.43587 24.3665 9.3313 23.4711 9.3313 22.3665C9.3313 21.2619 8.43587 20.3665 7.3313 20.3665C6.22673 20.3665 5.3313 21.2619 5.3313 22.3665C5.3313 23.4711 6.22673 24.3665 7.3313 24.3665Z" fill="#253D4E"/>
-                <path d="M17.3313 24.3665C18.4359 24.3665 19.3313 23.4711 19.3313 22.3665C19.3313 21.2619 18.4359 20.3665 17.3313 20.3665C16.2267 20.3665 15.3313 21.2619 15.3313 22.3665C15.3313 23.4711 16.2267 24.3665 17.3313 24.3665Z" fill="#253D4E"/>
-              </g>
-              <defs>
-                <clipPath id="clip0_3374_3574">
-                  <rect width="24" height="24" fill="white" transform="translate(0.331299 0.366516)"/>
-                </clipPath>
-              </defs>
-            </svg>
-            <a href="#cart" class="text-gray-600 hover:text-gray-900">Cart</a>
+            <!-- Shopping Cart Block with Notification Badge -->
+            <div class="relative inline-block"> <!-- Inline-block for relative positioning -->
+              <!-- Shopping Cart Icon -->
+              <svg class=" mr-[10.51px] mb-[2.3px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 25 25" fill="none">
+                <g clip-path="url(#clip0_3374_3574)">
+                  <path d="M24.3313 3.36652H4.5733L4.5313 3.01552C4.44535 2.28593 4.09468 1.61325 3.54579 1.12499C2.99689 0.636739 2.28793 0.366858 1.5533 0.366516L0.331299 0.366516V2.36652H1.5533C1.79823 2.36655 2.03464 2.45647 2.21767 2.61923C2.40071 2.78199 2.51764 3.00626 2.5463 3.24952L4.1313 16.7175C4.21725 17.4471 4.56791 18.1198 5.11681 18.608C5.6657 19.0963 6.37467 19.3662 7.1093 19.3665H20.3313V17.3665H7.1093C6.86421 17.3665 6.62768 17.2764 6.44462 17.1134C6.26157 16.9505 6.14473 16.7259 6.1163 16.4825L5.9853 15.3665H22.1673L24.3313 3.36652ZM20.4953 13.3665H5.7503L4.8093 5.36652H21.9383L20.4953 13.3665Z" fill="#253D4E"/>
+                  <path d="M7.3313 24.3665C8.43587 24.3665 9.3313 23.4711 9.3313 22.3665C9.3313 21.2619 8.43587 20.3665 7.3313 20.3665C6.22673 20.3665 5.3313 21.2619 5.3313 22.3665C5.3313 23.4711 6.22673 24.3665 7.3313 24.3665Z" fill="#253D4E"/>
+                  <path d="M17.3313 24.3665C18.4359 24.3665 19.3313 23.4711 19.3313 22.3665C19.3313 21.2619 18.4359 20.3665 17.3313 20.3665C16.2267 20.3665 15.3313 21.2619 15.3313 22.3665C15.3313 23.4711 16.2267 24.3665 17.3313 24.3665Z" fill="#253D4E"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_3374_3574">
+                    <rect width="24" height="24" fill="white" transform="translate(0.331299 0.366516)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+              <!-- Notification Badge -->
+              <span class="flex absolute -top-3 -right-1 h-6 w-6"> <!-- Adjusted positioning -->
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-6 w-6 bg-green-500 text-white justify-center items-center text-xs font-medium">4</span>
+              </span>
+            </div>
+
+            <a href="#cart" class="text-[#7E7E7E] text-[16px] not-italic font-normal leading-[24px] mt-[2.3px]">Cart</a>
           </div>
       </div>
       </div>
