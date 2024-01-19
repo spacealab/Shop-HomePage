@@ -16,7 +16,7 @@ module.exports = {
         'NestMart-TextHeading': '#253D4E',
       },
       fontFamily: {
-        'logo-font': ['Quicksand', 'sans-serif'],
+        'Quicksand': ['Quicksand', 'sans-serif'],
         'Montserrat': ['Montserrat', 'sans-serif'],
         'Lato': ['Lato', 'sans-serif'],
       },
