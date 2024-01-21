@@ -646,6 +646,10 @@ video {
   margin-right: 10.51px;
 }
 
+.mr-\[26px\] {
+  margin-right: 26px;
+}
+
 .mr-\[3\.3px\] {
   margin-right: 3.3px;
 }
@@ -672,10 +676,6 @@ video {
 
 .mt-\[9\.81px\] {
   margin-top: 9.81px;
-}
-
-.mr-\[26px\] {
-  margin-right: 26px;
 }
 
 .inline-block {
@@ -1268,10 +1268,6 @@ video {
 
 .pt-\[8\.59\] {
   padding-top: 8.59;
-}
-
-.pr-\[26px\] {
-  padding-right: 26px;
 }
 
 .text-center {
