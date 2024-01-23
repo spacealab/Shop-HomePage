@@ -25,6 +25,37 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Vector:before {
+  content: "\e923";
+  color: #fff;
+}
+.icon-star-1:before {
+  content: "\e91c";
+  color: #fdc040;
+}
+.icon-star-5:before {
+  content: "\e91d";
+  color: #cdcdcd;
+}
+.icon-fi-rs-marker:before {
+  content: "\e91e";
+  color: #3bb77e;
+}
+.icon-fi-rs-headset-2:before {
+  content: "\e91f";
+  color: #3bb77e;
+}
+.icon-fi-rs-paper-plane:before {
+  content: "\e920";
+  color: #3bb77e;
+}
+.icon-fi-rs-time-fast:before {
+  content: "\e921";
+  color: #3bb77e;
+}
+.icon-go-to-top:before {
+  content: "\e922";
+}
 .icon-fi-rs-user:before {
   content: "\e900";
 }
