@@ -25,6 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-fi-rs-plus-small-2:before {
+  content: "\e924";
+  color: #fdc040;
+}
 .icon-Vector:before {
   content: "\e923";
   color: #fff;
