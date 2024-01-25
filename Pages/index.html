@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="../dist/stylesheet.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -104,13 +105,32 @@
   </header>
 
   <!-- Swiper -->
-  <swiper-container class="mySwiper">
+  <div class="swiper mySwiper mt-[33px]">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="relative w-[1584px] h-[538px] ">
+            <h1 class="absolute z-20 left-[97px] text-left top-[103px] text-[#253D4E] font-[Quicksand] text-[72px] not-italic font-[1] leading-[78px] tracking-[-0.029px] w-[727px] h-[161px]">
+              Don’t miss amazing grocery deals
+            </h1>
+            <p class="absolute z-20 left-[104px] top-[297px] text-[#7E7E7E] font-[Lato] text-[30px] not-italic font-normal leading-[26px]">
+              Sign up for the daily newsletter
+            </p>
+          <div class="absolute z-0 w-[1584px] h-[538px]  rounded-[30px] bg-[rgba(253,_192,_64,_0.20)]"></div>
+          <img class="absolute z-0 w-[1584px] h-[538px] rounded-[30px] bg-[#F4F4F4] bg-[50%_50%_/_cover]" src="../src/images/3389452 1.png" alt="3389452">
+          <img class="absolute z-10 w-[870px] h-[530px] left-[706px]" src="../src/images/fresh-apples-shopping-mesh-bag-with-branch-apples-removebg 1.png" alt="apples">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        Slide 2
+      </div>
+      <div class="swiper-slide">
+        Slide 3
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
 
-    <swiper-slide>
-      <img class="pt-[33px] w-[1584px] h-[538]" src="../src/images/Hero.jpg" alt="Hero">
-    </swiper-slide>
-
-  </swiper-container>
+  <!-- Swiper JS -->
 
   <div class="bg-white">
     <div class="w-384 m-auto">
@@ -676,12 +696,6 @@
           </div>
         </div>
       </div>
-
-
-
-      
-
-
     </div>
   </div> 
 
@@ -872,7 +886,7 @@
           </div>
         
           <!-- Product Image -->
-          <img class="absolute z-10w-[378px] h-[335px] rounded-[15px] bg-[lightgray_50%_/_cover_no-repeat]" src="../src/images/img.png" alt="Healthy Foods">
+          <img class="absolute z-10w-[378px] h-[335px] rounded-[15px] bg-[lightgray_50%_/_cover_no-repeat]" src="../src/images/img.png" alt="Seeds">
         
           <!-- Product Description -->
           <div class="absolute z-20 w-[325px] h-[170px] rounded-[10px] bg-[#FFF] [box-shadow:5px_5px_15px_0px_rgba(24,_24,_24,_0.05)] ml-[27px] mt-[268px] px-[32px]">
@@ -901,7 +915,7 @@
 
               <button class="flex items-center justify-center w-[67px] h-[29px] rounded-[4px] bg-[#FDC040] bg-opacity-40">
                 <span class="text-[#FDC040] font-[Quicksand] text-[14px] not-italic font-bold leading-[20px] tracking-[-0.006px] pr-[10px] ">Add</span>
-                <span class="icon-fi-rs-plus-small-2 text-[9px]">+</span>
+                <span class="icon-fi-rs-plus-small-2 text-[9px]"></span>
               </button>
  
             </div>
@@ -1034,7 +1048,7 @@
           </div>
         
           <!-- Product Image -->
-          <img class="absolute z-10w-[378px] h-[335px] rounded-[15px] bg-[lightgray_50%_/_cover_no-repeat]" src="../src/images/img (1).png" alt="Healthy Foods">
+          <img class="absolute z-10w-[378px] h-[335px] rounded-[15px] bg-[lightgray_50%_/_cover_no-repeat]" src="../src/images/img (1).png" alt="Lemonade">
         
           <!-- Product Description -->
           <div class="absolute z-20 w-[325px] h-[170px] rounded-[10px] bg-[#FFF] [box-shadow:5px_5px_15px_0px_rgba(24,_24,_24,_0.05)] ml-[27px] mt-[268px] px-[32px]">
@@ -1064,12 +1078,385 @@
           </div>
         </div>
       </div>
-      
 
+      <div class="flex flex-row">
+        <div class="justify-start  max-w-md mx-auto">
+          <!-- Section Title -->
+          <h2 class="text-[#253D4E] font-[Quicksand] text-[24px] not-italic font-[1] leading-[32px] tracking-[-0.01px] mt-[68px] mb-[41px]">Top Selling</h2>
+      
+          <!-- Product Cards Container -->
+              <!-- Single Product Card -->
+              <div class="flex w-[378px] h-[121px] justify-center items-start gap-[23px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/05b3tlx4 1.png" alt="Nestle">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Nestle Original Coffee-Mate Coffee Creamer</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Single Product Card -->
+              <div class="bg-white flex items-center gap-[33px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/uln0si9e 1.png" alt="Grassfed">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Organic 100% Grassfed 85_15 Ground Beef</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Single Product Card -->
+              <div class="bg-white flex items-center gap-[33px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/im52xtnm 1.png" alt="Flavored">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Naturally Flavored Salted Caramel Light Roast Coffee</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Repeat for other products... -->
+        </div>
+
+        <div class="justify-start  max-w-md mx-auto">
+          <!-- Section Title -->
+          <h2 class="text-[#253D4E] font-[Quicksand] text-[24px] not-italic font-[1] leading-[32px] tracking-[-0.01px] mt-[68px] mb-[41px]">Trending Products</h2>
+      
+          <!-- Product Cards Container -->
+              <!-- Single Product Card -->
+              <div class="flex w-[378px] h-[121px] justify-center items-start gap-[23px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/d85195ts 1.png" alt="Eggs">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Organic Cage-Free Grade A Large Brown Eggs</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Single Product Card -->
+              <div class="bg-white flex items-center gap-[33px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/7uj0fqnj 1.png" alt="Seeds">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Seeds of Change Organic Quinoa, Brown, & Red Rice</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Single Product Card -->
+              <div class="bg-white flex items-center gap-[33px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/qp7iao5q 1.png" alt="Coffee">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Naturally Flavored Cinnamon Vanilla Light Roast Coffee</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Repeat for other products... -->
+        </div>
+
+        <div class="justify-start  max-w-md mx-auto">
+          <!-- Section Title -->
+          <h2 class="text-[#253D4E] font-[Quicksand] text-[24px] not-italic font-[1] leading-[32px] tracking-[-0.01px] mt-[68px] mb-[41px]">Recently added</h2>
+      
+          <!-- Product Cards Container -->
+              <!-- Single Product Card -->
+              <div class="flex w-[378px] h-[121px] justify-center items-start gap-[23px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/d748dq5e 1.png" alt="Triple">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Organic Frozen Triple Berry Blend</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Single Product Card -->
+              <div class="bg-white flex items-center gap-[33px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/n65hzuo8 1.png" alt="Farmhouse">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Pepperidge Farm Farmhouse Hearty White Bread</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Single Product Card -->
+              <div class="bg-white flex items-center gap-[33px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/jzqvubzp 1.png" alt="Buttermilk">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Oroweat Country Buttermilk Bread</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Repeat for other products... -->
+        </div>
+
+        <div class="justify-start  max-w-md mx-auto">
+          <!-- Section Title -->
+          <h2 class="text-[#253D4E] font-[Quicksand] text-[24px] not-italic font-[1] leading-[32px] tracking-[-0.01px] mt-[68px] mb-[41px]">Top Rated</h2>
+      
+          <!-- Product Cards Container -->
+              <!-- Single Product Card -->
+              <div class="flex w-[378px] h-[121px] justify-center items-start gap-[23px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/rja1ddub 1.png" alt="Buffalo">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Foster Farms Takeout Crispy Classic Buffalo Wings</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Single Product Card -->
+              <div class="bg-white flex items-center gap-[33px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/r4cg8l72 1.png" alt="Kettle">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Angie’s Boomchickapop Sweet & Salty Kettle Corn</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Single Product Card -->
+              <div class="bg-white flex items-center gap-[33px]">
+                <!-- Product Image -->
+                <img class="w-24 h-24 mr-4" src="../src/images/gjcnkc3b 1.png" alt="Meatballs">
+    
+                <!-- Product Details -->
+                <div>
+                  <div class="text-[#253D4E] font-[Quicksand] text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">All Natural Italian-Style Chicken Meatballs</div>
+                  <div class="flex items-center">
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-1 text-[12px]"></span>
+                    <span class="icon-star-5 text-[12px]"></span>
+
+                    <!-- Repeat for the number of stars you need -->
+                    <span class="text-gray-600 ml-3">(4.0)</span>
+                  </div>
+                  <div class="flex justify-between items-center pt-[16px]">
+                    <div>
+                      <span class="text-[#3BB77E] font-[Quicksand] text-[20px] not-italic font-bold leading-[32px] tracking-[-0.008px]">$2.51</span>
+                      <span class="text-[#7E7E7E] font-[Quicksand] text-[12px] not-italic font-bold leading-[20px] tracking-[-0.005px] line-through">$2.80</span>
+                    </div>  
+                  </div>
+                </div>
+              </div>  
+              <!-- Repeat for other products... -->
+        </div>
+      </div>      
     </div>
   </div> 
 
+  <div class="bg-white">
+    <div class="w-384 m-auto">
+      <div class="relative w-[1584px] h-[382.39px] mt-[68px] mb-[68px]">
+        <div class="absolute z-10 w-[1584px] h-[382.39px] rounded-[15px] bg-[#FFF2D9] opacity-20"></div>
+        <img class="absolute z-0 rounded-[15px] bg-[rgba(59,_183,_126,_0.20)]" src="../src/images/Rectangle 7.png" alt="Rectangle_7">
+        <img class="absolute z-0" src="../src/images/3389452 1.png" alt="3389452">
+        <!-- Text Container -->
+        <div class="absolute z-20 flex flex-row">
+          <div>
+            <h1 class="text-[#1C4037] font-[Quicksand] text-[50.612px] not-italic font-bold leading-[60.735px] tracking-[-0.02px] w-[869.076px] h-[112.297px] pt-[87px] pl-[77px]">
+              Stay home & get your daily needs from our shop
+            </h1>
+            <p class="text-[#2B3D34] font-[Lato] text-[22.776px] not-italic font-normal leading-[32.898px] pt-[152px] pl-[77px]">
+              Start Your Daily Shopping with Nest Mart
+            </p>
+            <img class="absolute z-30 top-[29px] left-[1104px]" src="../src/images/1 901.png" alt="901">
+            <img class="absolute z-30 top-[255px] left-[891px]" src="../src/images/3 389453.png" alt="389453">
+            <img class="absolute z-30 top-[55px] left-[884px]" src="../src/images/2 5.png" alt="2_5">
+            <img class="absolute z-30 top-[28px] left-[1117px]" src="../src/images/peapod-grocery-delivery-app-clone-codemadeio-grocery-delivery-png-700_603 1.png" alt="codemadeio">
+          </div>
+        </div>
+    </div>
+  </div>
+
 </body>
-  <!-- Include Swiper's JS just before the closing </body> tag -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script src="../src/scripts/script.js"></script>
+
+
 </html>
