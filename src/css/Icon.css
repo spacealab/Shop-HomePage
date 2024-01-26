@@ -9,6 +9,7 @@
   font-style: normal;
   font-display: block;
 }
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -24,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-go-to-top-converted:before {
+  content: "\e922";
+}
 .icon-fi-rs-plus-small-2:before {
   content: "\e924";
   color: #fdc040;
@@ -175,9 +179,5 @@
 .icon-icon .path12:before {
   content: "\e91b";
   margin-left: -1.4169921875em;
-  color: rgb(37, 61, 78);
-}
-.icon-circle-up:before {
-  content: "\ea41";
   color: rgb(37, 61, 78);
 }
