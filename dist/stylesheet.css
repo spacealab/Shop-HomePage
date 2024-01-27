@@ -871,16 +871,8 @@ video {
   display: inline-flex;
 }
 
-.h-0 {
-  height: 0px;
-}
-
-.h-0\.5 {
-  height: 0.125rem;
-}
-
-.h-24 {
-  height: 6rem;
+.h-28 {
+  height: 7rem;
 }
 
 .h-4 {
@@ -1063,8 +1055,8 @@ video {
   width: 141.34px;;
 }
 
-.w-24 {
-  width: 6rem;
+.w-28 {
+  width: 7rem;
 }
 
 .w-384 {
@@ -1342,26 +1334,13 @@ video {
   gap: 20px;
 }
 
-.gap-\[23px\] {
-  gap: 23px;
-}
-
 .gap-\[24px\] {
   gap: 24px;
-}
-
-.gap-\[33px\] {
-  gap: 33px;
 }
 
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
-}
-
-.gap-x-\[24px\] {
-  -moz-column-gap: 24px;
-       column-gap: 24px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1596,11 +1575,6 @@ video {
   background-color: rgba(59, 183, 126, 0.20);
 }
 
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
 .bg-green-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
@@ -1676,11 +1650,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -1708,8 +1677,16 @@ video {
   padding-bottom: 27px;
 }
 
+.pb-\[47px\] {
+  padding-bottom: 47px;
+}
+
 .pb-\[53px\] {
   padding-bottom: 53px;
+}
+
+.pb-\[66px\] {
+  padding-bottom: 66px;
 }
 
 .pb-\[7\.2px\] {
@@ -1762,6 +1739,10 @@ video {
 
 .pr-\[11px\] {
   padding-right: 11px;
+}
+
+.pr-\[20px\] {
+  padding-right: 20px;
 }
 
 .pr-\[25px\] {
@@ -1820,6 +1801,10 @@ video {
   padding-top: 3.75px;
 }
 
+.pt-\[31px\] {
+  padding-top: 31px;
+}
+
 .pt-\[33px\] {
   padding-top: 33px;
 }
@@ -1832,12 +1817,12 @@ video {
   padding-top: 38px;
 }
 
-.pt-\[4px\] {
-  padding-top: 4px;
+.pt-\[47px\] {
+  padding-top: 47px;
 }
 
-.pt-\[52px\] {
-  padding-top: 52px;
+.pt-\[4px\] {
+  padding-top: 4px;
 }
 
 .pt-\[66px\] {
@@ -1979,11 +1964,6 @@ video {
 
 .text-\[9px\] {
   font-size: 9px;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-xs {
@@ -2129,11 +2109,6 @@ video {
 
 .tracking-logo {
   letter-spacing: -0.019px;
-}
-
-.text-NestMart-TextHeading {
-  --tw-text-opacity: 1;
-  color: rgb(37 61 78 / var(--tw-text-opacity));
 }
 
 .text-\[\#1B1B1B\] {
