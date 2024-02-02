@@ -25,6 +25,68 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-fruit-1 .path1:before {
+  content: "\e95b";
+  color: rgb(253, 192, 64);
+}
+.icon-fruit-1 .path2:before {
+  content: "\e95c";
+  margin-left: -1.033203125em;
+  color: rgb(59, 183, 126);
+}
+.icon-fruit-1 .path3:before {
+  content: "\e95d";
+  margin-left: -1.033203125em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-11 .path1:before {
+  content: "\e95e";
+  color: rgb(253, 192, 64);
+}
+.icon-crab-11 .path2:before {
+  content: "\e95f";
+  margin-left: -0.8662109375em;
+  color: rgb(253, 192, 64);
+}
+.icon-crab-11 .path3:before {
+  content: "\e960";
+  margin-left: -0.8662109375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-11 .path4:before {
+  content: "\e961";
+  margin-left: -0.8662109375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-11 .path5:before {
+  content: "\e962";
+  margin-left: -0.8662109375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-11 .path6:before {
+  content: "\e963";
+  margin-left: -0.8662109375em;
+  color: rgb(253, 192, 64);
+}
+.icon-crab-11 .path7:before {
+  content: "\e964";
+  margin-left: -0.8662109375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-11 .path8:before {
+  content: "\e965";
+  margin-left: -0.8662109375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-11 .path9:before {
+  content: "\e966";
+  margin-left: -0.8662109375em;
+  color: rgb(59, 183, 126);
+}
+.icon-fi-rs-add-1:before {
+  content: "\e967";
+  color: #3bb77e;
+}
 .icon-star-1:before {
   content: "\e900";
   color: #fdc040;
