@@ -7,9 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Montserrat:wght@600&family=Lato&display=swap" rel="stylesheet">
   <!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="../src/css/style.css"/>
 <link rel="stylesheet" href="../src/css/Icon.css">
@@ -66,40 +64,65 @@
     </header-top>
     <div class="w-full h-px bg-[#E5E5E5]"></div>
     <main-nav>
-            <!-- Navigation Links and Support Center -->
-    <div class="flex justify-between items-center w-384 m-auto py-3">
-      <!-- Button  -->
-      <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
-        <span class="icon-fi-rs-apps text-[17px] mr-3"></span>
-        <span class="mr-3">Browse All Categories</span>
-        <span class="icon-Vector text-[5px]"></span>
-      </button>
-      <!-- Navigation Links -->
-      <nav class="flex">
-        <div class="flex ">
-          <span class="icon-fi-rs-flame-1 mr-[7px] text-[20px]"></span>
-          <a href="#hot-deals" class="text-[#1B1B1B] font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] mr-[34px]">Hot Deals</a>
+      <!-- Navigation Links and Support Center -->
+      <div class="flex justify-between items-center w-384 m-auto py-3">
+        <div class="relative">
+          <!-- Button to open the menu -->
+          <button onclick="toggleMenu()" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+            <span class="icon-fi-rs-apps text-[17px] mr-3"></span>
+            <span class="mr-3">Browse All Categories</span>
+            <span class="icon-Vector text-[5px]"></span>
+          </button>
+
+          <!-- Hidden menu -->
+          <div id="menu" class="absolute z-20 top-[75px] w-[502px] h-[412px] bg-white shadow-md rounded-lg border border-solid border-[#BCE3C9] hidden">
+            <!-- Menu content -->
+              <div class="flex pt-[32.64px] px-[29.96px]">
+                <!-- Milks and Dairies block -->
+                <div class="flex flex-row items-center bg-white rounded-lg shadow p-4">
+                  <div class="p-2 rounded-full mb-2">
+                    <span class="icon-Milks"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></span>
+                  </div>
+                  <span class="text-sm font-medium text-gray-700">Milks and Dairies</span>
+                </div>
+              
+                <!-- Wines & Drinks block -->
+                <div class="flex flex-row items-center bg-white rounded-lg shadow p-4">
+                  <div class="p-2 rounded-full mb-2">
+                    <span class="icon-Drinks"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></span>
+                  </div>
+                  <span class="text-sm font-medium text-gray-700">Wines & Drinks</span>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="flex gap-x-10">
-          <a href="#home" class="text-NestMart-TextHeading font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Home</a>
-          <a href="#vegetables" class="text-NestMart-TextHeading font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Vegetables</a>
-          <a href="#drink" class="text-NestMart-TextHeading font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Drink</a>
-        </div>
-      </nav>
-    
-      <!-- Support Center -->
-        <div class="flex items-center space-x-2 text-gray-700">
-            <!-- Icon Container -->
-            <div class="p-2">
-              <span class="icon-fi-rs-headset-1 text-[36px]"></span>
-            </div>
-            <!-- Text Container -->
-            <div>
-                <div class="text-Brand-color-1 font-Quicksand text-[24px] not-italic font-bold leading-[32px] tracking-[-0.01px] w-[131px] h-[32px]">1900 - 8888</div>
-                <div class="textText-body font-Lato text-[12px] not-italic font-normal leading-[18px] tracking-[1.14px]">24/7 Support Center</div>
-            </div>
-        </div>
-    </div>
+
+        <!-- Navigation Links -->
+        <nav class="flex">
+          <div class="flex ">
+            <span class="icon-fi-rs-flame-1 mr-[7px] text-[20px]"></span>
+            <a href="#hot-deals" class="text-[#1B1B1B] font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] mr-[34px]">Hot Deals</a>
+          </div>
+          <div class="flex gap-x-10">
+            <a href="#home" class="text-NestMart-TextHeading font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Home</a>
+            <a href="#vegetables" class="text-NestMart-TextHeading font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Vegetables</a>
+            <a href="#drink" class="text-NestMart-TextHeading font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px]">Drink</a>
+          </div>
+        </nav>
+      
+        <!-- Support Center -->
+          <div class="flex items-center space-x-2 text-gray-700">
+              <!-- Icon Container -->
+              <div class="p-2">
+                <span class="icon-fi-rs-headset-1 text-[36px]"></span>
+              </div>
+              <!-- Text Container -->
+              <div>
+                  <div class="text-Brand-color-1 font-Quicksand text-[24px] not-italic font-bold leading-[32px] tracking-[-0.01px] w-[131px] h-[32px]">1900 - 8888</div>
+                  <div class="textText-body font-Lato text-[12px] not-italic font-normal leading-[18px] tracking-[1.14px]">24/7 Support Center</div>
+              </div>
+          </div>
+      </div>
     </main-nav>
     <div class="w-full h-px bg-[#E5E5E5]"></div>
   </header>

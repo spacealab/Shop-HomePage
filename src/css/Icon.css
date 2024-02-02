@@ -25,159 +25,421 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-go-to-top-converted:before {
-  content: "\e922";
-}
-.icon-fi-rs-plus-small-2:before {
-  content: "\e924";
-  color: #fdc040;
-}
-.icon-Vector:before {
-  content: "\e923";
-  color: #fff;
-}
 .icon-star-1:before {
-  content: "\e91c";
+  content: "\e900";
   color: #fdc040;
 }
 .icon-star-5:before {
-  content: "\e91d";
+  content: "\e901";
   color: #cdcdcd;
 }
-.icon-fi-rs-marker:before {
-  content: "\e91e";
-  color: #3bb77e;
-}
-.icon-fi-rs-headset-2:before {
-  content: "\e91f";
-  color: #3bb77e;
-}
-.icon-fi-rs-paper-plane:before {
-  content: "\e920";
-  color: #3bb77e;
-}
-.icon-fi-rs-time-fast:before {
-  content: "\e921";
-  color: #3bb77e;
-}
-.icon-fi-rs-user:before {
-  content: "\e900";
-}
-.icon-fi-rs-shuffle-1:before {
-  content: "\e901";
-  color: #3bb77e;
-}
-.icon-fi-rs-shopping-cart:before {
+.icon-sweet-1 .path1:before {
   content: "\e902";
+  color: rgb(253, 192, 64);
 }
-.icon-fi-rs-search:before {
+.icon-sweet-1 .path2:before {
   content: "\e903";
-  color: #7e7e7e;
+  margin-left: -0.9033203125em;
+  color: rgb(253, 192, 64);
 }
-.icon-fi-rs-plus-small-1:before {
+.icon-sweet-1 .path3:before {
   content: "\e904";
-  color: #3bb77e;
+  margin-left: -0.9033203125em;
+  color: rgb(59, 183, 126);
 }
-.icon-fi-rs-paper-plane-1:before {
+.icon-sweet-1 .path4:before {
   content: "\e905";
-  color: #7e7e7e;
+  margin-left: -0.9033203125em;
+  color: rgb(59, 183, 126);
 }
-.icon-fi-rs-heart-1:before {
+.icon-sweet-1 .path5:before {
   content: "\e906";
-  color: #3bb77e;
+  margin-left: -0.9033203125em;
+  color: rgb(59, 183, 126);
 }
-.icon-fi-rs-headset-1:before {
+.icon-sweet-1 .path6:before {
   content: "\e907";
+  margin-left: -0.9033203125em;
+  color: rgb(59, 183, 126);
 }
-.icon-fi-rs-flame-1:before {
+.icon-sweet-1 .path7:before {
   content: "\e908";
-  color: #3bb77e;
+  margin-left: -0.9033203125em;
+  color: rgb(59, 183, 126);
 }
-.icon-fi-rs-eye-1:before {
+.icon-milk-products-1 .path1:before {
   content: "\e909";
+  color: rgb(253, 192, 64);
+}
+.icon-milk-products-1 .path2:before {
+  content: "\e90a";
+  margin-left: -1.03515625em;
+  color: rgb(59, 183, 126);
+}
+.icon-milk-products-1 .path3:before {
+  content: "\e90b";
+  margin-left: -1.03515625em;
+  color: rgb(59, 183, 126);
+}
+.icon-milk-products-1 .path4:before {
+  content: "\e90c";
+  margin-left: -1.03515625em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-1 .path1:before {
+  content: "\e90d";
+  color: rgb(253, 192, 64);
+}
+.icon-crab-1 .path2:before {
+  content: "\e90e";
+  margin-left: -0.8583984375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-1 .path3:before {
+  content: "\e90f";
+  margin-left: -0.8583984375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-1 .path4:before {
+  content: "\e910";
+  margin-left: -0.8583984375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-1 .path5:before {
+  content: "\e911";
+  margin-left: -0.8583984375em;
+  color: rgb(253, 192, 64);
+}
+.icon-crab-1 .path6:before {
+  content: "\e912";
+  margin-left: -0.8583984375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-1 .path7:before {
+  content: "\e913";
+  margin-left: -0.8583984375em;
+  color: rgb(59, 183, 126);
+}
+.icon-crab-1 .path8:before {
+  content: "\e914";
+  margin-left: -0.8583984375em;
+  color: rgb(59, 183, 126);
+}
+.icon-grocery-1 .path1:before {
+  content: "\e915";
+  color: rgb(253, 192, 64);
+}
+.icon-grocery-1 .path2:before {
+  content: "\e916";
+  margin-left: -0.92578125em;
+  color: rgb(59, 183, 126);
+}
+.icon-grocery-1 .path3:before {
+  content: "\e917";
+  margin-left: -0.92578125em;
+  color: rgb(59, 183, 126);
+}
+.icon-grocery-1 .path4:before {
+  content: "\e918";
+  margin-left: -0.92578125em;
+  color: rgb(59, 183, 126);
+}
+.icon-grocery-1 .path5:before {
+  content: "\e919";
+  margin-left: -0.92578125em;
+  color: rgb(59, 183, 126);
+}
+.icon-Baking .path1:before {
+  content: "\e91a";
+  color: rgb(253, 192, 64);
+}
+.icon-Baking .path2:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(59, 183, 126);
+}
+.icon-Baking .path3:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(59, 183, 126);
+}
+.icon-Baking .path4:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(59, 183, 126);
+}
+.icon-Clothing .path1:before {
+  content: "\e91e";
+  color: rgb(253, 192, 64);
+}
+.icon-Clothing .path2:before {
+  content: "\e91f";
+  margin-left: -1.05859375em;
+  color: rgb(253, 192, 64);
+}
+.icon-Clothing .path3:before {
+  content: "\e920";
+  margin-left: -1.05859375em;
+  color: rgb(59, 183, 126);
+}
+.icon-Clothing .path4:before {
+  content: "\e921";
+  margin-left: -1.05859375em;
+  color: rgb(59, 183, 126);
+}
+.icon-Drinks .path1:before {
+  content: "\e922";
+  color: rgb(253, 192, 64);
+}
+.icon-Drinks .path2:before {
+  content: "\e923";
+  margin-left: -0.9013671875em;
+  color: rgb(59, 183, 126);
+}
+.icon-Drinks .path3:before {
+  content: "\e924";
+  margin-left: -0.9013671875em;
+  color: rgb(59, 183, 126);
+}
+.icon-Drinks .path4:before {
+  content: "\e925";
+  margin-left: -0.9013671875em;
+  color: rgb(59, 183, 126);
+}
+.icon-Drinks .path5:before {
+  content: "\e926";
+  margin-left: -0.9013671875em;
+  color: rgb(59, 183, 126);
+}
+.icon-fi-rs-angle-small-down:before {
+  content: "\e927";
   color: #3bb77e;
 }
-.icon-fi-rs-arrow-small-right-2:before {
-  content: "\e90a";
-  color: #fff;
+.icon-fi-rs-angle-small-up:before {
+  content: "\e928";
+  color: #3bb77e;
 }
-.icon-fi-rs-arrow-small-right-1:before {
-  content: "\e90b";
+.icon-fi-rs-apps:before {
+  content: "\e929";
   color: #fff;
 }
 .icon-fi-rs-arrow-small-left-1:before {
-  content: "\e90c";
+  content: "\e92a";
   color: #7e7e7e;
 }
-.icon-fi-rs-apps:before {
-  content: "\e90d";
+.icon-fi-rs-arrow-small-right-1:before {
+  content: "\e92b";
   color: #fff;
 }
-.icon-fi-rs-angle-small-up:before {
-  content: "\e90e";
+.icon-fi-rs-arrow-small-right-2:before {
+  content: "\e92c";
+  color: #fff;
+}
+.icon-fi-rs-eye-1:before {
+  content: "\e92d";
   color: #3bb77e;
 }
-.icon-fi-rs-angle-small-down:before {
-  content: "\e90f";
+.icon-fi-rs-flame-1:before {
+  content: "\e92e";
   color: #3bb77e;
+}
+.icon-fi-rs-headset-1:before {
+  content: "\e92f";
+}
+.icon-fi-rs-headset-2:before {
+  content: "\e930";
+  color: #3bb77e;
+}
+.icon-fi-rs-heart-1:before {
+  content: "\e931";
+  color: #3bb77e;
+}
+.icon-fi-rs-marker:before {
+  content: "\e932";
+  color: #3bb77e;
+}
+.icon-fi-rs-paper-plane:before {
+  content: "\e933";
+  color: #3bb77e;
+}
+.icon-fi-rs-paper-plane-1:before {
+  content: "\e934";
+  color: #7e7e7e;
+}
+.icon-fi-rs-plus-small-1:before {
+  content: "\e935";
+  color: #3bb77e;
+}
+.icon-fi-rs-plus-small-2:before {
+  content: "\e936";
+  color: #fdc040;
+}
+.icon-fi-rs-search:before {
+  content: "\e937";
+  color: #7e7e7e;
+}
+.icon-fi-rs-shopping-cart:before {
+  content: "\e938";
+}
+.icon-fi-rs-shuffle-1:before {
+  content: "\e939";
+  color: #3bb77e;
+}
+.icon-fi-rs-time-fast:before {
+  content: "\e93a";
+  color: #3bb77e;
+}
+.icon-fi-rs-user:before {
+  content: "\e93b";
+}
+.icon-crabe-18 .path1:before {
+  content: "\e93c";
+  color: rgb(253, 192, 64);
+}
+.icon-crabe-18 .path2:before {
+  content: "\e93d";
+  margin-left: -1.154296875em;
+  color: rgb(59, 183, 126);
+}
+.icon-crabe-18 .path3:before {
+  content: "\e93e";
+  margin-left: -1.154296875em;
+  color: rgb(59, 183, 126);
+}
+.icon-crabe-18 .path4:before {
+  content: "\e93f";
+  margin-left: -1.154296875em;
+  color: rgb(59, 183, 126);
 }
 .icon-icon .path1:before {
-  content: "\e910";
+  content: "\e940";
   color: rgb(253, 192, 64);
   opacity: 0.8;
 }
 .icon-icon .path2:before {
-  content: "\e911";
+  content: "\e941";
   margin-left: -1.4169921875em;
   color: rgb(253, 192, 64);
 }
 .icon-icon .path3:before {
-  content: "\e912";
+  content: "\e942";
   margin-left: -1.4169921875em;
   color: rgb(129, 177, 61);
 }
 .icon-icon .path4:before {
-  content: "\e913";
+  content: "\e943";
   margin-left: -1.4169921875em;
   color: rgb(37, 61, 78);
 }
 .icon-icon .path5:before {
-  content: "\e914";
+  content: "\e944";
   margin-left: -1.4169921875em;
   color: rgb(37, 61, 78);
 }
 .icon-icon .path6:before {
-  content: "\e915";
+  content: "\e945";
   margin-left: -1.4169921875em;
   color: rgb(37, 61, 78);
 }
 .icon-icon .path7:before {
-  content: "\e916";
+  content: "\e946";
   margin-left: -1.4169921875em;
   color: rgb(37, 61, 78);
 }
 .icon-icon .path8:before {
-  content: "\e917";
+  content: "\e947";
   margin-left: -1.4169921875em;
   color: rgb(37, 61, 78);
 }
 .icon-icon .path9:before {
-  content: "\e918";
+  content: "\e948";
   margin-left: -1.4169921875em;
   color: rgb(37, 61, 78);
 }
 .icon-icon .path10:before {
-  content: "\e919";
+  content: "\e949";
   margin-left: -1.4169921875em;
   color: rgb(37, 61, 78);
 }
 .icon-icon .path11:before {
-  content: "\e91a";
+  content: "\e94a";
   margin-left: -1.4169921875em;
   color: rgb(37, 61, 78);
 }
 .icon-icon .path12:before {
-  content: "\e91b";
+  content: "\e94b";
   margin-left: -1.4169921875em;
   color: rgb(37, 61, 78);
+}
+.icon-Milks .path1:before {
+  content: "\e94c";
+  color: rgb(253, 192, 64);
+}
+.icon-Milks .path2:before {
+  content: "\e94d";
+  margin-left: -1.005859375em;
+  color: rgb(59, 183, 126);
+}
+.icon-Milks .path3:before {
+  content: "\e94e";
+  margin-left: -1.005859375em;
+  color: rgb(59, 183, 126);
+}
+.icon-Milks .path4:before {
+  content: "\e94f";
+  margin-left: -1.005859375em;
+  color: rgb(59, 183, 126);
+}
+.icon-Milks .path5:before {
+  content: "\e950";
+  margin-left: -1.005859375em;
+  color: rgb(59, 183, 126);
+}
+.icon-Milks .path6:before {
+  content: "\e951";
+  margin-left: -1.005859375em;
+  color: rgb(59, 183, 126);
+}
+.icon-Pet .path1:before {
+  content: "\e952";
+  color: rgb(253, 192, 64);
+}
+.icon-Pet .path2:before {
+  content: "\e953";
+  margin-left: -0.9814453125em;
+  color: rgb(59, 183, 126);
+}
+.icon-Pet .path3:before {
+  content: "\e954";
+  margin-left: -0.9814453125em;
+  color: rgb(59, 183, 126);
+}
+.icon-Pet .path4:before {
+  content: "\e955";
+  margin-left: -0.9814453125em;
+  color: rgb(59, 183, 126);
+}
+.icon-Pet .path5:before {
+  content: "\e956";
+  margin-left: -0.9814453125em;
+  color: rgb(59, 183, 126);
+}
+.icon-Pet .path6:before {
+  content: "\e957";
+  margin-left: -0.9814453125em;
+  color: rgb(59, 183, 126);
+}
+.icon-Pet .path7:before {
+  content: "\e958";
+  margin-left: -0.9814453125em;
+  color: rgb(59, 183, 126);
+}
+.icon-Pet .path8:before {
+  content: "\e959";
+  margin-left: -0.9814453125em;
+  color: rgb(59, 183, 126);
+}
+.icon-Vector:before {
+  content: "\e95a";
+  color: #fff;
 }
