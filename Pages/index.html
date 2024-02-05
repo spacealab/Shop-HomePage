@@ -69,7 +69,7 @@
 
     <main-nav>
       <!-- Navigation Links and Support Center -->
-      <div class="flex justify-between items-center max-w-[1586px] m-auto max-2xl:px-[24px] py-3 max-lg:py-[65px]">
+      <div class="flex justify-between items-center max-w-[1586px] m-auto max-2xl:px-[24px] py-3 max-lg:py-[40px]">
         <div class="relative">
           <!-- Button to open the menu -->
           <button onclick="toggleMenu()" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded inline-flex items-center max-lg:hidden">
@@ -187,33 +187,142 @@
 
   </header>
 
-  <div class="relative max-w-[1586px] m-auto max-2xl:px-[24px] mt-[33px] h-[538px] ">
+
+  <section-1 class="flex justify-start bg-center max-w-[1586px] mx-auto mt-[33px] h-[538px] rounded-[30px] max-2xl:mx-[24px]"  style="background-image: url('../src/images/section-1.jpg');">
     <div>
-      <h1 class="absolute z-20 left-[97px] text-left top-[103px] text-Text-heading font-[Quicksand] text-[72px] not-italic font-[1] leading-[78px] tracking-[-0.029px] w-[727px] h-[161px]">
+      <h1 class="text-[#253D4E] font-[Quicksand] text-[72px] not-italic font-[1] leading-[78px] tracking-[-0.029px] ml-[97px] mt-[103px] w-[727px] h-[161px]">
         Don’t miss amazing grocery deals
       </h1>
-      <p class="absolute z-20 left-[104px] top-[297px] text-Text-body font-[Lato] text-[30px] not-italic font-normal leading-[26px]">
+      <p class="text-Text-body font-[Lato] text-[30px] mt-[33px] ml-[104px] leading-[26px] mt-4">
         Sign up for the daily newsletter
       </p>
-      <div class="absolute z-20 bg-[#FFF] rounded-full shadow-md flex items-center w-[442px] h-[50px] ml-[104px] mt-[391px]">
+      <div class="bg-[#FFF] rounded-full shadow-md flex items-center ml-[104px] mt-[68px] w-[442px] h-[50px] mt-4">
           <span class="icon-fi-rs-paper-plane-1 text-[24px] pl-[22px]"></span>
         <input
           type="text"
           class="text-[#B6B6B6] font-lato text-[12px] flex-grow py-2 pl-[11px] outline-none"
           placeholder="Your email address"
         >
-        <button class="w-[149px] h-full rounded-[30px] bg-Brand-color-1 text-[#FFF] font-[Quicksand] text-[16px] not-italic font-[1] leading-[20px] tracking-[-0.006px]">
+        <button class="w-[149px] h-full rounded-[30px] bg-Brand-color-1 text-[#FFF] font-[Quicksand] text-[16px]">
           Subscribe
         </button>
       </div>
     </div>
-    <div>
-      <!-- <div class="absolute z-5 opacity-20 bg-[#FDC040] w-[1584px] h-[538px] rounded-[30px] border-[1px] border-[solid] border-[#808080] bg-blend-normal [box-shadow:0px_2px_4px_rgba(100,100,100,0.5)]"></div> -->
-      <img class="absolute z-0 max-w-[1656px] m-auto rounded-[30px]" src="../src/images/3389452 1.png" alt="3389452">
-      <!-- <img class="absolute z-10 w-[870px] h-[530px] left-[706px]" src="../src/images/fresh-apples-shopping-mesh-bag-with-branch-apples-removebg 1.png" alt="apples"> -->
-    </div>
-  </div>
+  </section-1>
   
+  <section-2>
+    <div class="max-w-[1586px] mx-auto max-2xl:mx-[24px]">
+      <div class="text-Text-heading pt-[68px] font-Quicksand text-[32px] not-italic font-bold leading-[40px] tracking-[-0.013px]">Featured Categories</div>
+
+      <div class="flex space-x-4 overflow-auto pt-[47px] pb-[75px] bg-white justify-between">
+        <!-- Start of individual card -->
+        <div class="rounded-[10px] border-[1px] border-[solid] border-[#81B13D] bg-[#F2FCE4] [box-shadow:20px_20px_40px_0px_rgba(24,_24,_24,_0.07)]">
+          <img src="../src/images/cat-13 1.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Cake & Milk</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">14 items</p>
+        </div>
+        <div class="rounded-[10px] bg-[#FFFCEB]">
+          <img src="../src/images/cat-11 1.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Peach</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">17 items</p>
+        </div>
+        <div class="rounded-[10px] bg-[#ECFFEC]">
+          <img src="../src/images/cat-12 1.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Oganic Kiwi</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">21 items</p>
+        </div>
+        <div class="rounded-[10px] bg-[#FEEFEA]">
+          <img src="../src/images/cat-9 1.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Red Apple</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">68 items</p>
+        </div>
+        <div class="rounded-[10px] bg-[#FFF3EB]">
+          <img src="../src/images/cat-3 1.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Snack</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">34 items</p>
+        </div>
+        <div class="rounded-[10px] bg-[#FFF3FF]">
+          <img src="../src/images/cat-4 1.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Black plum</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">25 items</p>
+        </div>
+        <div class="rounded-[10px] bg-[#F2FCE4]">
+          <img src="../src/images/cat-1 4.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Vegetables</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">65 items</p>
+        </div>
+        <div class="rounded-[10px] bg-[#FFFCEB]">
+          <img src="../src/images/cat-15 1.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Headphone</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">33 items</p>
+        </div>
+        <div class="rounded-[10px] bg-[#F2FCE4]">
+          <img src="../src/images/cat-14 1.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Cake & Milk</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">54 items</p>
+        </div>
+        <div class="rounded-[10px] bg-[#FFF3FF]">
+          <img src="../src/images/cat-7 1.png" alt="Cake & Milk" class="w-[120px] h-[120px] flex-shrink-0 bg-[url(<path-to-image>),_lightgray_50%_/_cover_no-repeat]</path-to-image>" />
+          <h3 class="text-Text-heading text-center font-Quicksand text-[16px] not-italic font-bold leading-[20px] tracking-[-0.006px] pt-[8.59]">Orange</h3>
+          <p class="text-[#B6B6B6] text-center font-[Lato] text-[12px] not-italic font-normal leading-[18px] pb-[17.45px]">63 items</p>
+        </div>
+      </div>
+
+      <div class="flex justify-around items-stretch space-x-4 overflow-auto">
+        <!-- Card 1 -->
+        <div class="overflow-hidden rounded-xl bg-[#F0E8D5] w-[512px] h-[300px] relative">
+          <!-- Background image with lower z-index -->
+          <img src="../src/images/Cms-04 1.png" alt="Onions" class="absolute bottom-0 right-0 h-full z-10 w-[520px] h-[249px] pt-[77px] pl-[20px]"/>
+        
+          <!-- Text and button container with higher z-index -->
+          <div class="absolute top-0 left-0 z-10">
+            <h2 class="w-[271px] h-[92px] text-Text-heading font-Quicksand text-[24px] not-italic font-bold leading-[32px] tracking-[-0.01px] pt-[75px] pl-[48px]">Everyday Fresh & Clean with Our Products</h2>
+            <button class="ml-[48px] mt-[100px]	absolute z-10 inline-flex items-center bg-Brand-color-1 hover:bg-green-700 text-white font-bold py-2 px-4 rounded shadow">
+              <span>Shop Now</span>
+              <div>
+                <span class="icon-fi-rs-arrow-small-right-2 text-[10px] w-f h-4 ml-2"></span>
+              </div>
+            </button>
+          </div>
+        </div>
+        
+      
+        <!-- Card 2 -->
+        <div class="overflow-hidden rounded-xl bg-[#F3E8E8] w-[512px] h-[300px] relative">
+          <!-- Background image with lower z-index -->
+          <img src="../src/images/Cat-01 1.png" alt="Onions" class="absolute bottom-0 right-0 h-full z-10 w-[204px] h-[252px] pt-[77px] pl-[20px]"/>
+        
+          <!-- Text and button container with higher z-index -->
+          <div class="absolute top-0 left-0 z-10">
+            <h2 class="w-[271px] h-[92px] text-Text-heading font-Quicksand text-[24px] not-italic font-bold leading-[32px] tracking-[-0.01px] pt-[75px] pl-[48px]">Make your Breakfast Healthy and Easy</h2>
+            <button class="ml-[48px] mt-[100px]	absolute z-10 inline-flex items-center bg-Brand-color-1 hover:bg-green-700 text-white font-bold py-2 px-4 rounded shadow">
+              <span>Shop Now</span>
+              <div>
+                <span class="icon-fi-rs-arrow-small-right-2 text-[10px] w-f h-4 ml-2"></span>
+              </div>
+            </button>
+          </div>
+        </div>
+      
+        <!-- Card 3 -->
+        <div class="overflow-hidden rounded-xl bg-[#E7EAF3] w-[512px] h-[300px] relative">
+          <!-- Background image with lower z-index -->
+          <img src="../src/images/Cms-03 1.png" alt="Onions" class="absolute bottom-0 right-0 h-full z-10 w-[451px] h-[216px] pt-[77px] pl-[20px]"/>
+        
+          <!-- Text and button container with higher z-index -->
+          <div class="absolute top-0 left-0 z-10">
+            <h2 class="w-[271px] h-[92px] text-Text-heading font-Quicksand text-[24px] not-italic font-bold leading-[32px] tracking-[-0.01px] pt-[75px] pl-[48px]">The best Organic Products Online</h2>
+            <button class="ml-[48px] mt-[100px]	absolute z-10 inline-flex items-center bg-[#FDC040] hover:bg-green-700 text-white font-bold py-2 px-4 rounded shadow">
+              <span>Shop Now</span>
+              <div>
+                <span class="icon-fi-rs-arrow-small-right-2 text-[10px] w-f h-4 ml-2"></span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section-2>
 
 </body>
   <!-- Swiper JS -->
