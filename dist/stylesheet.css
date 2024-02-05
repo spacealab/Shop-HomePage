@@ -712,6 +712,10 @@ video {
   margin-left: 0.75rem;
 }
 
+.ml-\[104px\] {
+  margin-left: 104px;
+}
+
 .ml-\[20px\] {
   margin-left: 20px;
 }
@@ -860,10 +864,6 @@ video {
   margin-top: 9.81px;
 }
 
-.ml-\[104px\] {
-  margin-left: 104px;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -874,6 +874,10 @@ video {
 
 .inline-flex {
   display: inline-flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -1068,8 +1072,8 @@ video {
   height: 1px;
 }
 
-.max-h-\[538px\] {
-  max-height: 538px;
+.h-\[177px\] {
+  height: 177px;
 }
 
 .w-141\.34 {
@@ -1272,6 +1276,14 @@ video {
   width: 100%;
 }
 
+.w-\[136px\] {
+  width: 136px;
+}
+
+.w-\[137px\] {
+  width: 137px;
+}
+
 .max-w-\[1586px\] {
   max-width: 1586px;
 }
@@ -1297,6 +1309,18 @@ video {
 
 .animate-ping {
   animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.grid-cols-10 {
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1345,6 +1369,14 @@ video {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-items-start {
+  justify-items: start;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .gap-3 {
@@ -2328,6 +2360,14 @@ video {
     margin-right: 24px;
   }
 
+  .max-2xl\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .max-2xl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .max-2xl\:px-\[24px\] {
     padding-left: 24px;
     padding-right: 24px;
@@ -2339,16 +2379,19 @@ video {
     margin-left: 130px;
     margin-right: 130px;
   }
+
+  .max-xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .max-xl\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 
 @media not all and (min-width: 1024px) {
   .max-lg\:hidden {
     display: none;
-  }
-
-  .max-lg\:py-\[65px\] {
-    padding-top: 65px;
-    padding-bottom: 65px;
   }
 
   .max-lg\:py-\[40px\] {
