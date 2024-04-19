@@ -864,6 +864,10 @@ video {
   margin-top: 9.81px;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -950,6 +954,10 @@ video {
 
 .h-\[174px\] {
   height: 174px;
+}
+
+.h-\[177px\] {
+  height: 177px;
 }
 
 .h-\[182px\] {
@@ -1072,10 +1080,6 @@ video {
   height: 1px;
 }
 
-.h-\[177px\] {
-  height: 177px;
-}
-
 .w-141\.34 {
   width: 141.34px;;
 }
@@ -1106,6 +1110,14 @@ video {
 
 .w-\[131px\] {
   width: 131px;
+}
+
+.w-\[136px\] {
+  width: 136px;
+}
+
+.w-\[137px\] {
+  width: 137px;
 }
 
 .w-\[147\.61px\] {
@@ -1276,14 +1288,6 @@ video {
   width: 100%;
 }
 
-.w-\[136px\] {
-  width: 136px;
-}
-
-.w-\[137px\] {
-  width: 137px;
-}
-
 .max-w-\[1586px\] {
   max-width: 1586px;
 }
@@ -1315,10 +1319,6 @@ video {
   grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -1347,10 +1347,6 @@ video {
   align-items: center;
 }
 
-.items-stretch {
-  align-items: stretch;
-}
-
 .justify-start {
   justify-content: flex-start;
 }
@@ -1365,14 +1361,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-items-start {
-  justify-items: start;
 }
 
 .justify-items-center {
@@ -1418,18 +1406,8 @@ video {
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .self-start {
   align-self: flex-start;
-}
-
-.overflow-auto {
-  overflow: auto;
 }
 
 .overflow-hidden {
@@ -2360,12 +2338,12 @@ video {
     margin-right: 24px;
   }
 
-  .max-2xl\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
   .max-2xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .max-2xl\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .max-2xl\:px-\[24px\] {
@@ -2378,10 +2356,6 @@ video {
   .max-xl\:mx-\[130px\] {
     margin-left: 130px;
     margin-right: 130px;
-  }
-
-  .max-xl\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .max-xl\:grid-cols-1 {
